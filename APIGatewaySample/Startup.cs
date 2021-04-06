@@ -28,7 +28,7 @@ namespace APIGatewaySample
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
+            //Step1:add this
             services.AddOcelot(Configuration);
 
             services.AddControllers();
@@ -61,6 +61,7 @@ namespace APIGatewaySample
             //    endpoints.MapControllers();
             //});
 
+            //Step2:add this
             //Ocelot是一个终结ASP.NET核心中间件,应该写成管道中的最后一项:它根据上面的appsettings.json配置处理和重定向请求.
             app.UseOcelot().Wait();
 
