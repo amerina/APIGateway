@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGatewaySample", "APIGate
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductsAPIServices", "ProductsAPIServices\ProductsAPIServices.csproj", "{3D4B9E9C-CFF7-492A-A22D-78D70F7A1A72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthServer", "AuthServer\AuthServer.csproj", "{04903E3A-8A1C-451D-BCDC-CFBDF840C27B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientDemo", "ClientDemo\ClientDemo.csproj", "{9FDF1B78-672F-4FB7-A8DE-600DD2790606}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{3D4B9E9C-CFF7-492A-A22D-78D70F7A1A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D4B9E9C-CFF7-492A-A22D-78D70F7A1A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D4B9E9C-CFF7-492A-A22D-78D70F7A1A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04903E3A-8A1C-451D-BCDC-CFBDF840C27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04903E3A-8A1C-451D-BCDC-CFBDF840C27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04903E3A-8A1C-451D-BCDC-CFBDF840C27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04903E3A-8A1C-451D-BCDC-CFBDF840C27B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FDF1B78-672F-4FB7-A8DE-600DD2790606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDF1B78-672F-4FB7-A8DE-600DD2790606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDF1B78-672F-4FB7-A8DE-600DD2790606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDF1B78-672F-4FB7-A8DE-600DD2790606}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
