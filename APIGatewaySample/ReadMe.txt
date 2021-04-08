@@ -12,3 +12,15 @@ Quality of service is the ability to provide different priorities to different a
 Ocelot uses Polly to achieve this job
 
 TimeoutStrategy
+
+
+********************************
+service discovery module of Ocelot with Spring Cloud Eureka Server.
+
+Service discovery aims to reduce the configuration efforts from users.
+
+There are some types of service discovery we can use in Ocelot, such as Consul, Eureka, and so on. 
+
+http://steeltoe.io/
+Ocelot uses Steeltoe to communicate with Eureka, which is an open source project that 
+enables .NET developers to implement industry standard best practices when building resilient microservices for the cloud.
